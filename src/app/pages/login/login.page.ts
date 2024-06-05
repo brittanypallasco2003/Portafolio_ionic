@@ -12,7 +12,7 @@ import { AutheticationService } from 'src/app/authetication.service';
 export class LoginPage implements OnInit {
   loginForm: FormGroup;
 
-  constructor(public formBuilder: FormBuilder, public loadingCtrl:LoadingController, public authService:AutheticationService, public router:Router,
+  constructor(public formBuilder: FormBuilder, public loadingCtrl:LoadingController, public authService:AutheticationService, private router:Router,
     private toastController: ToastController,
   ) {}
 

@@ -16,7 +16,7 @@ export class SignupPage implements OnInit {
     public formBuilder: FormBuilder,
     public loadingCtrl: LoadingController,
     public authService: AutheticationService,
-    public router: Router,
+    private router: Router,
     private toastController: ToastController,
   ) {}
 
@@ -24,14 +24,6 @@ export class SignupPage implements OnInit {
     // this.signUP()
     this.ionicForm = this.formBuilder.group({
       fullname: ['', [Validators.required]],
-      contact: [
-        '',
-        [
-          Validators.required,
-          Validators.pattern('^[0-9]*$'),
-          Validators.minLength(10),
-        ],
-      ],
       email: [
         '',
         [

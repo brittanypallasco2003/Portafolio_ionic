@@ -11,7 +11,7 @@ import { AutheticationService } from 'src/app/authetication.service';
 export class RestablacerPassPage implements OnInit {
 
   email:any
-  constructor(public authService:AutheticationService, public route:Router, private toastController: ToastController) { }
+  constructor(public authService:AutheticationService, private route:Router, private toastController: ToastController) { }
 
   ngOnInit() {
   }
