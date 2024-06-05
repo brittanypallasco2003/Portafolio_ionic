@@ -11,6 +11,22 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'landingpage',
+    loadChildren: () => import('./pages/landingpage/landingpage.module').then( m => m.LandingpagePageModule)
+  },
+  {
+    path: 'login',
+    loadChildren: () => import('./pages/login/login.module').then( m => m.LoginPageModule)
+  },
+  {
+    path: 'signup',
+    loadChildren: () => import('./pages/signup/signup.module').then( m => m.SignupPageModule)
+  },
+  {
+    path: 'restablacer-pass',
+    loadChildren: () => import('./pages/restablacer-pass/restablacer-pass.module').then( m => m.RestablacerPassPageModule)
+  },
 ];
 
 @NgModule({
