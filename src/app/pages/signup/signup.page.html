@@ -3,27 +3,58 @@
     <ion-title class="title">Bienvenido</ion-title>
     <p class="subTitle">Regístrate para obtener una cuenta</p>
   </div>
-  <form>
+  <form [formGroup]="ionicForm" novalidate>
+
     <div class="ion-padding">
+
       <ion-item>
-        <ion-input class="input" placeholder="Nombre"></ion-input>
+        <ion-input class="input" placeholder="Nombre" formControlName="fullname"></ion-input>
         <ion-icon name="person-outline"></ion-icon>
       </ion-item>
+
+      <div style="padding-top: -26px;padding-bottom: 16px;"
+        *ngIf="this.ionicForm.controls?.['fullname'].touched && this.ionicForm.controls?.['fullname'].invalid">
+        <ion-text *ngIf="errorControl.fullname.errors?.required" class="errorInput" color="danger">Este campo es
+          obligatorio</ion-text>
+      </div>
+
       <ion-item>
-        <ion-input class="input" placeholder="Correo Electrónico"></ion-input>
+        <ion-input class="input" placeholder="Correo Electrónico" formControlName="email"></ion-input>
         <ion-icon name="mail-outline"></ion-icon>
       </ion-item>
+
+      <div style="padding-top: -26px;padding-bottom: 16px;"
+        *ngIf="this.ionicForm.controls?.['email'].touched && this.ionicForm.controls?.['email'].invalid">
+        <ion-text *ngIf="errorControl.email.errors?.required" class="errorInput" color="danger">Este campo es
+          obligatorio</ion-text>
+        <ion-text *ngIf="errorControl.email.errors?.pattern" class="errorInput" color="danger">Formato de correo
+          inválido</ion-text>
+      </div>
+
       <ion-item>
-        <ion-input class="input" placeholder="Contraseña"></ion-input>
+        <ion-input class="input" placeholder="Contraseña" formControlName="password"></ion-input>
         <ion-icon name="lock-closed-outline"></ion-icon>
       </ion-item>
+
+      <div style="padding-top: -26px;padding-bottom: 16px;"
+        *ngIf="this.ionicForm.controls?.['password'].touched && this.ionicForm.controls?.['password'].invalid">
+        <ion-text *ngIf="errorControl.password.errors?.required" class="errorInput" color="danger">Este campo es
+          obligatorio</ion-text>
+        <ion-text *ngIf="errorControl.password.errors?.pattern" class="errorInput" color="danger">La contraseña debe
+          tener más de 8 caracteres
+          Al menos una carácter especial.
+          Al menos una mayúscula.
+          Al menos un número.
+        </ion-text>
+      </div>
+
       <div class="signInLink">
         <p>¿Ya tienes una cuenta? <a [routerLink]="['/login']">Inicia Sesión</a></p>
-
       </div>
     </div>
+
     <div class="boton">
-      <ion-button [routerLink]="['/home']">Registrar</ion-button>
+      <ion-button (click)="signUP()">Registrar</ion-button>
     </div>
   </form>
 </ion-content>

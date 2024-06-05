@@ -6,7 +6,7 @@
 </div>
 <div class="ion-padding">
   <ion-item>
-    <ion-input class="input" placeholder="Correo Electrónico"></ion-input>
+    <ion-input [(ngModel)]="email" class="input" placeholder="Correo Electrónico"></ion-input>
     <ion-icon name="mail-outline"></ion-icon>
   </ion-item>
 </div>
@@ -14,6 +14,6 @@
   <p>¿Ya recordaste? <a [routerLink]="['/login']">Inicia Sesión</a></p>
 </div>
 <div class="boton">
-  <ion-button [routerLink]="['/home']">Restablecer Contraseña</ion-button>
+  <ion-button (click)="resetPassword()">Restablecer Contraseña</ion-button>
 </div>
 </ion-content>
