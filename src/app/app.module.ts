@@ -22,12 +22,28 @@ import { getStorage, provideStorage } from '@angular/fire/storage';
     AppRoutingModule,
     AngularFireModule,
     AngularFireAuthModule,
-    AngularFireModule.initializeApp(environment.firebaseConfig),
+    AngularFireModule.initializeApp({
+      apiKey: 'AIzaSyAyhd0Hxs9uxmivLs216OYqNZwfXjPc4LQ',
+      authDomain: 'auth-example-f5d92.firebaseapp.com',
+      projectId: 'auth-example-f5d92',
+      storageBucket: 'auth-example-f5d92.appspot.com',
+      messagingSenderId: '1053157597541',
+      appId: '1:1053157597541:web:4b2b127dce4de8c180418c',
+      measurementId: 'G-S2VBSLQ1SG',
+    }),
   ],
   providers: [
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy },
     provideFirebaseApp(() =>
-      initializeApp(environment.firebaseConfig)
+      initializeApp({
+        apiKey: 'AIzaSyAyhd0Hxs9uxmivLs216OYqNZwfXjPc4LQ',
+        authDomain: 'auth-example-f5d92.firebaseapp.com',
+        projectId: 'auth-example-f5d92',
+        storageBucket: 'auth-example-f5d92.appspot.com',
+        messagingSenderId: '1053157597541',
+        appId: '1:1053157597541:web:4b2b127dce4de8c180418c',
+        measurementId: 'G-S2VBSLQ1SG',
+      })
     ),
     provideAuth(() => getAuth()),
     provideFirestore(() => getFirestore()),
