@@ -1,1 +1,1 @@
-#### APK: Descarga el [.apk](src/assets/app-debug.apk)
+APK: Descarga la [.apk](src/assets/app-debug.apk)
