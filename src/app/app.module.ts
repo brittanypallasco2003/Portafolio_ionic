@@ -26,7 +26,9 @@ import { getStorage, provideStorage } from '@angular/fire/storage';
   ],
   providers: [
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy },
-    provideFirebaseApp(() => initializeApp(environment.firebaseConfig)),
+    provideFirebaseApp(() =>
+      initializeApp(environment.firebaseConfig)
+    ),
     provideAuth(() => getAuth()),
     provideFirestore(() => getFirestore()),
     provideStorage(() => getStorage()),

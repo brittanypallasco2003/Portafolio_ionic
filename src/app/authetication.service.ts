@@ -1,52 +1,47 @@
 import { Injectable } from '@angular/core';
-import { AngularFireAuth, } from '@angular/fire/compat/auth';
+import { AngularFireAuth } from '@angular/fire/compat/auth';
 
 import { User } from 'firebase/auth';
 
-
-export interface Users{
-  name:string;
-  email: string
+export interface Users {
+  name: string;
+  email: string;
 }
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class AutheticationService {
-
-  constructor(public ngFireAuth: AngularFireAuth) { }
-
+  constructor(public ngFireAuth: AngularFireAuth) {}
 
   async registerUser(email: string, password: string) {
-    return await this.ngFireAuth.createUserWithEmailAndPassword(email, password)
-
+    return await this.ngFireAuth.createUserWithEmailAndPassword(
+      email,
+      password
+    );
   }
 
   async loginUser(email: string, password: string) {
     return await this.ngFireAuth.signInWithEmailAndPassword(email, password);
-
   }
 
   async resetPassword(email: string) {
     return await this.ngFireAuth.sendPasswordResetEmail(email);
-
   }
 
   async signOut() {
     return await this.ngFireAuth.signOut();
   }
 
-  async getProfile():Promise <User | null> {
+  async getProfile(): Promise<User | null> {
     return new Promise<User | null>((resolve, reject) => {
       this.ngFireAuth.onAuthStateChanged(user => {
         if (user) {
-          resolve(user as User);
+          resolve(user);
         } else {
           resolve(null);
         }
       }, reject);
-    })
+    });
   }
-
-
 }
