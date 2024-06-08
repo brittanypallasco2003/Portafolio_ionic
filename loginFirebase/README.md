@@ -46,5 +46,10 @@ Inicia el servidor
 ![loginPantalla](https://github.com/brittanypallasco2003/Portafolio_ionic/assets/117743650/7ae4bbf5-2b42-4480-811c-d70730d902b6)
 ![loginPantalla1](https://github.com/brittanypallasco2003/Portafolio_ionic/assets/117743650/9a6120c9-7069-4a94-a17a-0223b36314d4)
 
+### Pantalla Registro
+![Imagen de WhatsApp 2024-06-08 a las 13 43 31_f7f421ec](https://github.com/brittanypallasco2003/Portafolio_ionic/assets/117743650/fdbada7f-3246-48fe-b1ad-0f8b5fb254b0)
 
+
+### Inicio de sesión
+![inicio_sesion](https://github.com/brittanypallasco2003/Portafolio_ionic/assets/117743650/6a3ef8c8-46ff-4661-81bc-d3953a4e2485)
 
