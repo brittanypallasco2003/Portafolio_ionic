@@ -1,6 +1,6 @@
 # App para subir archivos con Storage
 
-Aplicación móvil con pantalla de registro, inicio y restablecer contraseña con con firebase authentication
+Aplicación móvil para subir archivos con Firebase Storage
  
 - APK: Descarga la [.apk](src/assets/app-debug.apk)
 
