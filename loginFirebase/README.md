@@ -43,7 +43,7 @@ Inicia el servidor
 ## Capturas del funcionamiento
 
 ### Pantalla Login
-
+![loginPantalla](https://github.com/brittanypallasco2003/Portafolio_ionic/assets/117743650/7ae4bbf5-2b42-4480-811c-d70730d902b6)
 
 
 
