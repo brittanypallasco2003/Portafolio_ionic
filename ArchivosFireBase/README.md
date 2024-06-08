@@ -4,7 +4,7 @@ Aplicación móvil con pantalla de registro, inicio y restablecer contraseña co
  
 - APK: Descarga la [.apk](LoginFirebase/src/assets/app-debug.apk)
 
-- Web: https://auth-example-f5d92.web.app/
+- Web: [App para subir archivos](https://a-fa60d.web.app/home)
 
 
 ## Cómo correr el proyecto

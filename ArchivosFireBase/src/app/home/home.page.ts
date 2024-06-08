@@ -55,9 +55,12 @@ export class HomePage {
     }
     this.isFileUploading = true;
     this.isFileUploaded = false;
+    this.isFileUploading = true;
+    this.isFileUploaded = false;
     this.imgName = file.name;
     // Storage path
-    const fileStoragePath = `Imagenes/foto`;
+    const fileStoragePath = `filesStorage/${new Date().getTime()}_${file.name}`;
+
     // Image reference
     const imageRef = this.afStorage.ref(fileStoragePath);
     // File upload task
