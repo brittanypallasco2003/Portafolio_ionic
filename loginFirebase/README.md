@@ -12,8 +12,9 @@ Aplicación móvil con pantalla de registro, inicio y restablecer contraseña co
 Instala ionic
 
 ```bash
-    npm i -g @ionic/cli
+  npm i -g @ionic/cli 
 ```
+
 
 Clonar el repositorio
 
@@ -42,6 +43,8 @@ Inicia el servidor
 ## Capturas del funcionamiento
 
 ### Pantalla Login
+
+
 
 
 
