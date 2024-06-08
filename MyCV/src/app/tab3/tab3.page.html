@@ -1,80 +1,28 @@
-<ion-header [translucent]="true">
+<ion-header>
   <ion-toolbar>
     <ion-title>
-      Mis Proyectos
+      Infinite Scroll
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content>
+  <ion-list>
+    <ion-item *ngFor="let item of items; let index">
+      <ion-avatar slot="start">
+        <img [src]="'https://picsum.photos/80/80?random=' + index" alt="avatar" />
+      </ion-avatar>
+      <ion-label>
+        <h2>{{ item.title }}</h2>
+        <p>ID: {{ item.id }}</p>
+      </ion-label>
+    </ion-item>
+  </ion-list>
 
-  <ion-card>
-    <ion-card-header>
-      <ion-card-title>Citas</ion-card-title>
-      <ion-card-subtitle>
-        App móvil - React Native
-      </ion-card-subtitle>
-    </ion-card-header>
-
-    <ion-card-content>
-      <p>Administrador de citas de pacientes de Veterinaria</p>
-    </ion-card-content>
-
-    <ion-button size="small" href="https://github.com/brittanypallasco2003/citas.git"
-    >Ver proyecto</ion-button>
-  </ion-card>
-
-  <ion-card>
-    <ion-card-header>
-      <ion-card-title>MetroUIO</ion-card-title>
-      <ion-card-subtitle>
-        Proyecto React
-      </ion-card-subtitle>
-    </ion-card-header>
-
-    <ion-card-content>
-      <p>Registro de Rutas del Metro de Quito</p>
-    </ion-card-content>
-
-    <ion-button size="small" href="https://github.com/brittanypallasco2003/MetroUIO.git"
-    >Ver proyecto</ion-button>
-  </ion-card>
-
-  <ion-card>
-    <ion-card-header>
-      <ion-card-title>Proyect-Portafolio</ion-card-title>
-      <ion-card-subtitle>
-        Proyecto FullStack
-      </ion-card-subtitle>
-    </ion-card-header>
-
-    <ion-card-content>
-      <p>Portafolio web para registro de proyectos</p>
-    </ion-card-content>
-
-    <ion-button size="small" href="https://github.com/brittanypallasco2003/proyect-portafolio.git"
-    >Ver proyecto</ion-button>
-  </ion-card>
-
-  <ion-card>
-    <ion-card-header>
-      <ion-card-title>Reconocimiento de Voz</ion-card-title>
-      <ion-card-subtitle>
-        Proyecto Deep Learning
-      </ion-card-subtitle>
-    </ion-card-header>
-
-    <ion-card-content>
-      <p>Asistente virtual para búsquedas de google y youtube</p>
-    </ion-card-content>
-
-    <ion-button size="small" href="https://github.com/brittanypallasco2003/reconocimiento-de-voz.git"
-    >Ver proyecto</ion-button>
-  </ion-card>
-  
+  <ion-infinite-scroll threshold="100px" (ionInfinite)="cargarDatos($event)">
+    <ion-infinite-scroll-content
+      loadingSpinner="bubbles"
+      loadingText="Cargando más datos...">
+    </ion-infinite-scroll-content>
+  </ion-infinite-scroll>
 </ion-content>
