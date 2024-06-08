@@ -1,0 +1,36 @@
+ion-item-divider {
+  --background: #0054e9;
+  --color: #ffff;
+  --padding-top: 0.5rem;
+  --padding-bottom: 0.5rem;
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+}
+
+// ion-card {
+//   width: 85%;
+// }
+
+ion-icon{
+  font-size: 20px;
+}
+
+.label-contact{
+  font-size: 0.9rem;
+}
+
+p, h3{
+  line-height: 1.5rem;
+}
+
+.subtitle{
+  padding: 0.5rem 0;
+  line-height: 1.2rem;
+}
+
+ion-avatar{
+  width: 4rem;
+  height: 4rem;
+}
