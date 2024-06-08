@@ -2,7 +2,7 @@
 
 Aplicación móvil con pantalla de registro, inicio y restablecer contraseña con con firebase authentication
  
-- APK: Descarga la [.apk](LoginFirebase/src/assets/app-debug.apk)
+- APK: Descarga la [.apk](loginFirebase/src/assets/app-debug.apk)
 
 - Web: https://auth-example-f5d92.web.app/
 
