@@ -5,14 +5,14 @@
 export const environment = {
   production: false,
   firebaseConfig: {
-    apiKey: "AIzaSyD0qdjfw6G1tRTsB8M7lQYXRXtYko6vvYY",
-    authDomain: "chat-ionic-45fef.firebaseapp.com",
-    databaseURL: "https://chat-ionic-45fef-default-rtdb.firebaseio.com",
-    projectId: "chat-ionic-45fef",
-    storageBucket: "chat-ionic-45fef.appspot.com",
-    messagingSenderId: "866684525529",
-    appId: "1:866684525529:web:837d4c0d575223faf797c8",
-    measurementId: "G-1MYSQJL5L8"
+    apiKey: "",
+    authDomain: "",
+    databaseURL: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: "",
+    appId: "",
+    measurementId: ""
   },
 };
 
