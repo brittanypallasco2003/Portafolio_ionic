@@ -22,18 +22,24 @@ import { environment } from '../environments/environment';
     BrowserModule,
     IonicModule.forRoot(),
     AppRoutingModule,
-    AngularFireModule.initializeApp(environment.firebaseConfig),
-    AngularFirestoreModule 
+    AngularFireModule.initializeApp({
+      apiKey: 'AIzaSyAKVDbIbWEKT_ygujrVgKERkDrTD3U8rto',
+      authDomain: 'gps-firebase-fce0f.firebaseapp.com',
+      projectId: 'gps-firebase-fce0f',
+      storageBucket: 'gps-firebase-fce0f.appspot.com',
+      messagingSenderId: '992015848614',
+      appId: '1:992015848614:web:565ff6b0be2ef745135067',
+    }),
+    AngularFirestoreModule,
   ],
   providers: [
     Geolocation,
     NativeGeocoder,
     {
       provide: RouteReuseStrategy,
-      useClass: IonicRouteStrategy
-    }
+      useClass: IonicRouteStrategy,
+    },
   ],
   bootstrap: [AppComponent],
 })
-
 export class AppModule {}
