@@ -4,7 +4,7 @@ GPS con guardado de datos en real-time-database o firestore.
  
 - APK: Descarga la [.apk](src/assets/app-debug.apk)
 
-- Web: [App Chat](https://gps-firebase-fce0f.web.app/)
+- Web: [GPS guardado de datos](https://gps-firebase-fce0f.web.app/)
 
 
 ## Cómo correr el proyecto ⌨️
