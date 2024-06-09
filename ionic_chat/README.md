@@ -44,10 +44,9 @@ Inicia el servidor
 
 ### Inicio de Sesión y Registro
 
-|Pantalla implementada|Validaciones|
-|:---|:---|
-|![Imagen de WhatsApp 2024-06-09 a las 11 55 05_5240fada](https://github.com/brittanypallasco2003/Portafolio_ionic/assets/117743650/b524afcd-70e1-496f-bab2-5431a323ec95)|![Imagen de WhatsApp 2024-06-09 a las 12 22 37_4db59deb](https://github.com/brittanypallasco2003/Portafolio_ionic/assets/117743650/73040388-3fec-4e17-83b1-36f4f200bac0)|
-
+|Pantalla implementada|Validaciones Inicio de Sesión|Validación Registro|
+|:---|:---|:---|
+|![Imagen de WhatsApp 2024-06-09 a las 11 55 05_5240fada](https://github.com/brittanypallasco2003/Portafolio_ionic/assets/117743650/b524afcd-70e1-496f-bab2-5431a323ec95)|![Imagen de WhatsApp 2024-06-09 a las 12 19 21_240b582d](https://github.com/brittanypallasco2003/Portafolio_ionic/assets/117743650/8dbf7f49-1ab6-4d4d-b7d7-e28f5de6f072)|![Imagen de WhatsApp 2024-06-09 a las 12 15 30_2f67f347](https://github.com/brittanypallasco2003/Portafolio_ionic/assets/117743650/2d439e02-826b-4479-8779-7ee468ad8f7d)|
 
 ### Pantalla de Chat
 |Usuario 1|Usuario 2|Usuario 3|
