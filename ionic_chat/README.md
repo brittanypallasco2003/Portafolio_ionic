@@ -52,19 +52,7 @@ Inicia el servidor
 ### Pantalla de Chat
 |Usuario 1|Usuario 2|
 |---|---|
-|![Imagen de WhatsApp 2024-06-09 a las 11 54 50_3c33192b](https://github.com/brittanypallasco2003/Portafolio_ionic/assets/117743650/bcb110f6-8c7a-4cce-974b-2307a40c2df9)|![Imagen de WhatsApp 2024-06-09 a las 11 54 50_3c33192b](https://github.com/brittanypallasco2003/Portafolio_ionic/assets/117743650/8143bdb8-e2c2-4954-9c76-96dcb0088539)|
-
-
-
-
-
-### Tab CV
-![Imagen de WhatsApp 2024-06-08 a las 19 49 42_b13d5d34](https://github.com/brittanypallasco2003/Portafolio_ionic/assets/117743650/a99c7f54-a9bc-4543-b793-1a940437d7c3)
-
-
-### Tab Infinite Scrolling
-![Imagen de WhatsApp 2024-06-08 a las 19 49 42_c9364789](https://github.com/brittanypallasco2003/Portafolio_ionic/assets/117743650/b82ad69d-71b0-417f-8bf2-4f45dc126745)
-![Imagen de WhatsApp 2024-06-08 a las 19 49 30_2c7b4913](https://github.com/brittanypallasco2003/Portafolio_ionic/assets/117743650/49300077-8d95-4fc8-b821-e96d82428d66)
+|![Imagen de WhatsApp 2024-06-09 a las 11 54 50_3c33192b](https://github.com/brittanypallasco2003/Portafolio_ionic/assets/117743650/9508c10e-f320-4214-ba19-fae70099d864)|![Imagen de WhatsApp 2024-06-09 a las 11 54 50_3c33192b](https://github.com/brittanypallasco2003/Portafolio_ionic/assets/117743650/8143bdb8-e2c2-4954-9c76-96dcb0088539)|
 
 
 
