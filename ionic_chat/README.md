@@ -49,8 +49,12 @@ Inicia el servidor
 |![Imagen de WhatsApp 2024-06-09 a las 11 55 05_5240fada](https://github.com/brittanypallasco2003/Portafolio_ionic/assets/117743650/b524afcd-70e1-496f-bab2-5431a323ec95)|
 
 
+### Pantalla de Chat
+|Pantalla Implementada|
+|:---|
+|![Imagen de WhatsApp 2024-06-09 a las 11 54 50_3c33192b](https://github.com/brittanypallasco2003/Portafolio_ionic/assets/117743650/bcb110f6-8c7a-4cce-974b-2307a40c2df9)|![Imagen de WhatsApp 2024-06-09 a las 11 54 50_3c33192b](https://github.com/brittanypallasco2003/Portafolio_ionic/assets/117743650/bcb110f6-8c7a-4cce-974b-2307a40c2df9)|
 
-![Imagen de WhatsApp 2024-06-08 a las 19 49 41_75ba069e](https://github.com/brittanypallasco2003/Portafolio_ionic/assets/117743650/66c1d1b2-6f56-4f7a-aa56-953c23bb8363)
+
 
 
 ### Tab CV
