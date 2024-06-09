@@ -50,10 +50,9 @@ Inicia el servidor
 
 
 ### Pantalla de Chat
-|Pantalla Implementada|
-|---|
-|![Imagen de WhatsApp 2024-06-09 a las 11 54 50_3c33192b](https://github.com/brittanypallasco2003/Portafolio_ionic/assets/117743650/bcb110f6-8c7a-4cce-974b-2307a40c2df9)|
-|![Imagen de WhatsApp 2024-06-09 a las 11 54 50_3c33192b](https://github.com/brittanypallasco2003/Portafolio_ionic/assets/117743650/8143bdb8-e2c2-4954-9c76-96dcb0088539)|
+|Usuario 1|Usuario 2|
+|---|---|
+|![Imagen de WhatsApp 2024-06-09 a las 11 54 50_3c33192b](https://github.com/brittanypallasco2003/Portafolio_ionic/assets/117743650/bcb110f6-8c7a-4cce-974b-2307a40c2df9)|![Imagen de WhatsApp 2024-06-09 a las 11 54 50_3c33192b](https://github.com/brittanypallasco2003/Portafolio_ionic/assets/117743650/8143bdb8-e2c2-4954-9c76-96dcb0088539)|
 
 
 
