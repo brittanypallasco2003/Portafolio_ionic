@@ -4,7 +4,7 @@ Aplicación de hoja de vida (CV) + firebase hosting +infinite scrolling
  
 - APK: Descarga la [.apk](src/assets/app-debug.apk)
 
-- Web:
+- Web: [App Hoja de Vida](https://mycv-730a8.web.app/tabs/tab1)
 
 
 ## Cómo correr el proyecto
