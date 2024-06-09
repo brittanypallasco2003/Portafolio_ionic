@@ -52,7 +52,8 @@ Inicia el servidor
 ### Pantalla de Chat
 |Usuario 1|Usuario 2|
 |---|---|
-|![Imagen de WhatsApp 2024-06-09 a las 11 54 50_3c33192b](https://github.com/brittanypallasco2003/Portafolio_ionic/assets/117743650/9508c10e-f320-4214-ba19-fae70099d864)|![Imagen de WhatsApp 2024-06-09 a las 11 54 50_3c33192b](https://github.com/brittanypallasco2003/Portafolio_ionic/assets/117743650/8143bdb8-e2c2-4954-9c76-96dcb0088539)|
+|![Imagen de WhatsApp 2024-06-09 a las 11 54 50_3c33192b](https://github.com/brittanypallasco2003/Portafolio_ionic/assets/117743650/9508c10e-f320-4214-ba19-fae70099d864)|![Imagen de WhatsApp 2024-06-09 a las 11 55 38_477b4c5b](https://github.com/brittanypallasco2003/Portafolio_ionic/assets/117743650/bcc16254-d264-48b1-af97-1376b4053d89)|
+
 
 
 
