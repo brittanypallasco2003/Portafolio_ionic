@@ -4,7 +4,7 @@ Aplicación para tomar fotos
  
 - APK: Descarga la [.apk](src/assets/app-debug.apk)
 
-- Web: [App web photo-gallery](https://mycv-730a8.web.app/tabs/tab1)
+- Web: [App web photo-gallery](https://photo-gallery-5ed3e.web.app/)
 
 
 ## Cómo correr el proyecto
