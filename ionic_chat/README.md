@@ -1,10 +1,10 @@
-# App para chatear
+# App para chatear 📲
 
 App para chatear con Real-time-database
  
 - APK: Descarga la [.apk](src/assets/app-debug.apk)
 
-- Web: [App Chat](https://mycv-730a8.web.app/tabs/tab1)
+- Web: [App Chat](https://chat-ionic-45fef.web.app/)
 
 
 ## Cómo correr el proyecto
