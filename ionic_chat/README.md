@@ -7,7 +7,7 @@ App para chatear con Real-time-database
 - Web: [App Chat](https://chat-ionic-45fef.web.app/)
 
 
-## Cómo correr el proyecto
+## Cómo correr el proyecto ⌨️
 
 Instala ionic
 
@@ -40,7 +40,25 @@ Inicia el servidor
   ionic serve
 ```
 
-## Capturas del funcionamiento
+
+## Variables de Entorno ⚙️
+
+Para correr este proyecto, necesitas añadir las siguientes variables de entorno a tu archivo **environment.ts**
+
+```bash
+firebaseConfig: {
+    apiKey: "",
+    authDomain: "",
+    databaseURL: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: "",
+    appId: "",
+    measurementId: ""
+  },
+```
+
+## Capturas del funcionamiento 📳
 
 ### Inicio de Sesión y Registro
 
