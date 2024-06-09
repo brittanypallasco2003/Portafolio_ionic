@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "@ionic-native/native-geocoder": "^5.36.0",
-    "cordova-plugin-nativegeocoder": "^3.5.1"
-  }
-}
