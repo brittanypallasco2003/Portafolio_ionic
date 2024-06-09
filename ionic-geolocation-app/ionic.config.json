@@ -1,5 +1,5 @@
 {
-  "name": "Ubicacion_GPS_Firebase",
+  "name": "ionic-geolocation-app",
   "integrations": {
     "capacitor": {}
   },

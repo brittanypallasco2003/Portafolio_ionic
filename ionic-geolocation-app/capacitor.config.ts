@@ -2,7 +2,7 @@ import type { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
   appId: 'io.ionic.starter',
-  appName: 'Ubicacion_GPS_Firebase',
+  appName: 'ionic-geolocation-app',
   webDir: 'www'
 };
 
