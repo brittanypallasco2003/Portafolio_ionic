@@ -1,0 +1,7 @@
+{
+  "name": "Ubicacion_GPS_Firebase",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
