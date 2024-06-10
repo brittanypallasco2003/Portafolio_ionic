@@ -47,29 +47,28 @@ Para correr este proyecto, necesitas añadir las siguientes variables de entorno
 
 ```bash
 firebaseConfig: {
-    apiKey: "",
-    authDomain: "",
-    databaseURL: "",
-    projectId: "",
-    storageBucket: "",
-    messagingSenderId: "",
-    appId: "",
-    measurementId: ""
+    apiKey: '',
+    authDomain: '',
+    projectId: '',
+    storageBucket: '',
+    messagingSenderId: '',
+    appId: '',
   },
 ```
 
 ## Capturas del funcionamiento 📳
 
-### Inicio de Sesión y Registro
+### Pantalla para obtener localización
 
-|Pantalla implementada|Validación Inicio de Sesión|Validación Registro|
-|:---|:---|:---|
-|![Imagen de WhatsApp 2024-06-09 a las 11 55 05_5240fada](https://github.com/brittanypallasco2003/Portafolio_ionic/assets/117743650/b524afcd-70e1-496f-bab2-5431a323ec95)|![Imagen de WhatsApp 2024-06-09 a las 12 19 21_240b582d](https://github.com/brittanypallasco2003/Portafolio_ionic/assets/117743650/8dbf7f49-1ab6-4d4d-b7d7-e28f5de6f072)|![Imagen de WhatsApp 2024-06-09 a las 12 15 30_2f67f347](https://github.com/brittanypallasco2003/Portafolio_ionic/assets/117743650/2d439e02-826b-4479-8779-7ee468ad8f7d)|
+|Pantalla implementada|Obtención de ubicación|
+|:---|:---|
+|![image](https://github.com/brittanypallasco2003/Portafolio_ionic/assets/117743650/75a2d567-a204-4d4f-be25-948087b159f3)|![image](https://github.com/brittanypallasco2003/Portafolio_ionic/assets/117743650/2f418674-d2e2-4818-8df9-5424de4ff5d6)|
+
 
 ### Ubicación almacenada en Firestore
 |Colección Locations|
 |-|
-||
+|![image](https://github.com/brittanypallasco2003/Portafolio_ionic/assets/117743650/998a9560-3c4f-4477-a86e-fb6ebfc88a71)|
 
 
 
