@@ -2,7 +2,7 @@
 
 App para mostrar ubicación en OpenStreetMap.
 
-- Web: [App Chat](https://openstreetmap-605e2.web.app/)
+- Web: [Ver ubicación en OpenStreetMap](https://openstreetmap-605e2.web.app/)
 
 
 ## Cómo correr el proyecto ⌨️
@@ -38,8 +38,8 @@ Inicia el servidor
   ionic serve
 ```
 
-## Capturas del funcionamiento 📳
-
+## Capturas del funcionamiento 
+![image](https://github.com/brittanypallasco2003/Portafolio_ionic/assets/117743650/79e4a898-0335-4137-b3b6-3aa63e32ef41)
 
 
 
